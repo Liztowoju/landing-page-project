@@ -1,8 +1,30 @@
-.body{
+.site{
     display: flex;
     flex-direction: column;
-    width:100%
+    /* width:80% */
+    margin: auto;
 }
 header,footer{
     background-color: #1F2937;
+}
+.info{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    display: flex;
+}
+.quote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+.cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
 }
